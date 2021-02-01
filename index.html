@@ -159,17 +159,20 @@
       // append elements to the DOM
       // document.getElementById("webcam-container").appendChild(webcam.canvas); //화면에 웹캠을 표시하는
       labelContainer = document.getElementById("label-container");
+  //     for (let i = 0; i < maxPredictions; i++) { // and class labels
+  //         if(i==0){
+  //         labelContainer.appendChild(document.createElement("div"));
+  //         div.className = 'Rounded-Rectangle-523-0';
+  //         }else if(i==1){
+  //         labelContainer.appendChild(document.createElement("div"));
+  //         div.className = 'Rounded-Rectangle-523-1';  
+  //         }
+  //     }
+  // }
       for (let i = 0; i < maxPredictions; i++) { // and class labels
-          if(i==0){
           labelContainer.appendChild(document.createElement("div"));
-          div.className = 'Rounded-Rectangle-523-0';
-          }else if(i==1){
-          labelContainer.appendChild(document.createElement("div"));
-          div.className = 'Rounded-Rectangle-523-1';  
-          }
       }
   }
-
   // 웹캠은 loop를 사용함
   // async function loop() {
   //     webcam.update(); // update the webcam frame
@@ -243,9 +246,9 @@
       $('.result-message').html(resultMessage);
       $('.result-people').html(resultPeople);
       $('.result-image').html(resultimage);
-      var resultimage_width = resultimage.width;
-      console.log(resultimage_width);
-      console.log(maxPredictions);
+      // var resultimage_width = resultimage.width;
+      // console.log(resultimage_width);
+      // console.log(maxPredictions);
       //퍼센테이지 나오도록
       for (let i = 0; i < 3; i++) {
           const classPrediction = prediction[i].className + ": " + prediction[i].probability.toFixed(2);
