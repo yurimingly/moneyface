@@ -215,34 +215,45 @@ body {
     font-family: 'Gugi', cursive;
   }
 
-  .dinosaur {
-    width: 140px;
+  #label-container {
+    /* width: 140px;
     height: 26px;
-    margin: 53px 47px 22px 0;
-    font-family: NanumSquareEB;
-    font-size: 33px;
+    margin: 53px 47px 22px 0; */
+    font-family: 'Gugi', cursive;   
+    font-size: 0.8rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.53;
     letter-spacing: normal;
-    text-align: left;
+    text-align: center;
     color: var(--dark-grey-blue);
   }
 
-  .Rounded-Rectangle-523-copy {
-    width: 369px;
-    height: 38px;
-    padding: 6px 155px 7px 156px;
-    border-radius: 10px;
-    background-color: var(--apple);
-  }
 
   #label-container{
-    width: 369px;
+    /* width: 369px;
     height: 38px;
-    padding: 6px 155px 7px 156px;
+    padding: 6px 155px 7px 156px; */
     border-radius: 10px;
     background-color: var(--apple);
   }
 
+  .Rounded-Rectangle-523-0 {
+    width: 469px;
+    height: 38px;
+    margin: 47px 0 16px 47px;
+    padding: 0 100px 0 0;
+    opacity: 0.2;
+    border-radius: 10px;
+    background-color: var(--apple);
+  }
+  .Rounded-Rectangle-523-1 {
+    width: 469px;
+    height: 38px;
+    margin: 16px 0 16px 47px;
+    padding: 0 400px 0 0;
+    opacity: 0.2;
+    border-radius: 10px;
+    background-color: #1bafea;
+  }
