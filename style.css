@@ -19,6 +19,16 @@
     text-align: center;
     color: var(--dark-grey-blue);
   }
+  .subtitle2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-grey-blue);
+  }
 
  .nav-distance {
   padding: 2.1% 7.7%;
@@ -456,56 +466,11 @@ body {
     color: #ffffff;
   }
 
-
-  .animal-explain {
-      font-size: 1.5rem;
+  .ad-banner{
+    width:320px;
+    margin:0 auto;
   }
-  .dinosaur-animal-title {
-      color: #3ba363;
-  }
-  .dinosaur-animal-celeb {
-      color: #3ba363;
-      font-size: 1.2rem;
-  }
-  .deer-animal-title {
-      color: #3ba363;
-  }
-  .deer-animal-celeb {
-      color: #3ba363;
-      font-size: 1.2rem;
-  }
-  .cat-animal-title {
-      color: #ff6c0a;
-  }
-  .cat-animal-celeb {
-      color: #ff6c0a;
-      font-size: 1.2rem;
-  }
-  .dog-animal-title {
-      color: #548dd4;
-  }
-  .dog-animal-celeb {
-      color: #548dd4;
-      font-size: 1.2rem;
-  }
-  .rabbit-animal-title {
-      color: #e56995;
-  }
-  .rabbit-animal-celeb {
-      color: #e56995;
-      font-size: 1.2rem;
-  }
-  .bear-animal-title {
-      color: #9b6b43;
-  }
-  .bear-animal-celeb {
-      color: #9b6b43;
-      font-size: 1.2rem;
-  }
-  .fox-animal-title {
-      color: #31849b;
-  }
-  .fox-animal-celeb {
-      color: #31849b;
-      font-size: 1.2rem;
+  .ad-banner-full{
+    width:300px;
+    margin:0 auto;
   }
