@@ -236,7 +236,7 @@ body {
     height: 2rem;
     border-radius: 10px;
     width: 100%;
-    background-color: rgba(117, 204, 84, 0.2);
+    background-color: rgba(102, 31, 84, 0.2);
   }
   .Korea-1000-bar {
     position: absolute;
@@ -244,7 +244,7 @@ body {
     left: 0;
     height: 2rem;
     border-radius: 10px;
-    background-color: rgba(117, 204, 84, 1);
+    background-color: rgb(234, 129, 238);
   }
   .Korea-5000-box {
     position: absolute;
@@ -253,9 +253,43 @@ body {
     height: 2rem;
     border-radius: 10px;
     width: 100%;
-    background-color: rgba(128, 134, 43, 0.2);
+    background-color: rgba(121, 85, 43, 0.2);
   }
   .Korea-5000-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgb(233, 163, 34);
+  }
+  .Korea-10000-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(117, 204, 84, 0.2);
+  }
+  .Korea-10000-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(117, 204, 84, 1);
+  }
+  .Korea-50000-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(128, 134, 43, 0.2);
+  }
+  .Korea-50000-bar {
     position: absolute;
     top: 0;
     left: 0;
@@ -287,7 +321,7 @@ body {
     height: 2rem;
     border-radius: 10px;
     width: 100%;
-    background-color: rgba(251, 176, 59, 0.2);
+    background-color: rgba(71, 163, 159, 0.2);
   }
   .Japan-5000-bar {
     position: absolute;
@@ -295,7 +329,7 @@ body {
     left: 0;
     height: 2rem;
     border-radius: 10px;
-    background-color: rgba(251, 176, 59, 1);
+    background-color: rgb(78, 185, 189);
   }
   .Japan-10000-box {
     position: absolute;
