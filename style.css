@@ -206,14 +206,21 @@ body {
 
   .result-message{
     font-family: 'Gugi', cursive;
+    font-size: 1rem;
   }
 
   .result-people{
     font-family: 'Gugi', cursive;
   }
 
+  #label-container {
+    width: 80%;
+    margin: 0 auto;
+   font-family: 'Gugi', cursive;
+}
+
   .money-label{
-    width:20%;
+    width:100%;
     text-align: left;
     height: 2rem;
   }
@@ -392,20 +399,29 @@ body {
     border-radius: 10px;
     background-color: rgb(208, 117, 226);
   }
+  .anythingelse-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(15, 6, 15, 0.2);
+  }
+  .anythingelse-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgb(17, 10, 19);
+  }
   .percent-text {
+    width:100%;
     font-size: 1rem;
     color: #ffffff;
   }
-  .animal-label {
-      width: 20%;
-      text-align: left;
-      height: 2rem;
-  }
-  #label-container {
-      width: 80%;
-      margin: 0 auto;
-     font-family: 'Gugi', cursive;
-  }
+
 
   .animal-explain {
       font-size: 1.5rem;
