@@ -29,6 +29,17 @@
     text-align: center;
     color: var(--dark-grey-blue);
   }
+  .devstalk{
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-grey-blue);
+  }
 
  .nav-distance {
   padding: 2.1% 7.7%;
