@@ -494,6 +494,10 @@ body {
     margin:0 auto;
   }
   .ad-banner-full{
-    width:300px;
+    width:320px;
+    margin:0 auto;
+  }
+  .ad-banner-700{
+    width:700px;
     margin:0 auto;
   }
