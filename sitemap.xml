@@ -8,8 +8,19 @@
 
 
 <url>
-  <loc>https://www.moneyface.ga/</loc>
-  <lastmod>2021-01-24T14:08:11+00:00</lastmod>
+  <loc>https://www.howmuchismyface.ga/</loc>
+  <lastmod>2022-01-28T14:46:31+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.howmuchismyface.ga/devs_talk.html</loc>
+  <lastmod>2022-01-28T14:46:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.howmuchismyface.ga/devs_talk_eng.html</loc>
+  <lastmod>2022-01-28T14:46:31+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 

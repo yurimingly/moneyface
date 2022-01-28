@@ -1,2 +1,2 @@
 User-agent: *Allow:/
-Sitemap: https://www.moneyface.ga/sitemap.xml
+Sitemap: https://www.howmuchismyface.ga/sitemap.xml
